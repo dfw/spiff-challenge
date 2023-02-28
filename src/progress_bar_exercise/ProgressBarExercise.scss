@@ -1,0 +1,16 @@
+.progress-bar {
+    background-image: linear-gradient(to right, $sunset, $red);
+    height: 6px;
+    position: relative;
+
+    .remaining-progress {
+        background-color: $white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        transform: scaleX(0.75);
+        transform-origin: right;
+    }
+}
