@@ -23,6 +23,14 @@ const Solution = () => {
             <div className="progress-bar">
                 <div className="remaining-progress"></div>
             </div>
+            <div className="button-group">
+                <button className="button semi-bold small green">
+                    Start Request
+                </button>
+                <button className="button semi-bold small red">
+                    Finish Request
+                </button>
+            </div>
         </>
     );
 };

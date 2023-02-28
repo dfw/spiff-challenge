@@ -1,6 +1,7 @@
 .progress-bar {
     background-image: linear-gradient(to right, $sunset, $red);
     height: 6px;
+    margin-bottom: 30px;
     position: relative;
 
     .remaining-progress {
@@ -12,5 +13,29 @@
         height: 100%;
         transform: scaleX(0.75);
         transform-origin: right;
+    }
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    background-color: $white;
+    outline-style: solid;
+    outline-width: 1px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    transition: outline-width 100ms;
+
+    &:hover {
+        outline-width: 2px;
+    }
+
+    &:active {
+        outline-width: 3px;
     }
 }
